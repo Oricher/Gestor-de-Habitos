@@ -1,0 +1,10 @@
+Será um gestor de hábitos. irei fazer no ambiente codespaces. a estrutura de pastas será a seguinte: 
+
+gestor-de-habitos/
+│── app.py # Arquivo principal
+│── models.py # Modelos do banco de dados
+│── routes.py # Rotas da API
+│── database.py # Configuração do banco de dados
+│── config.py # Configurações gerais
+│── requirements.txt # Dependências do projeto
+└── venv/ # Ambiente virtual

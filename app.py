@@ -11,10 +11,10 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
 
-# Importa as rotas
+# Importa e registra as rotas
 def register_routes():
     from routes import api
-    api.init_app(app)
+    app.register_blueprint(api)
 
 register_routes()
 
